@@ -10,4 +10,4 @@
 
 ### Dev site hosted on Vercel:
 (*NOTE:* updates to main branch rebuild dev site)
-https://yildly-frontend-dev.vercel.app/ 
+https://yildly-dev.vercel.app/ 
