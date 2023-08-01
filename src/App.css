@@ -93,25 +93,17 @@ main {
   height: calc(100vh - 75.62px);
 }
 
-/* {
-  padding-top: 58.119px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-height: calc(100vh - 58.119px);
-  overflow-y: auto;
-  background-color: #fff;
-} */
-
 .contentContainer {
-  display: flex;
-  flex-direction: column;
+  /* display: fixed; */
+  /* flex-direction: column; */
   height: 100%;
   flex-grow: 1;
 }
 
 form {
-  height: 15vh;
+  position: fixed;
+  bottom: 0;
+  height: 45px;
   width: 100%;
   display: flex;
   font-size: 1.5rem;
@@ -124,7 +116,7 @@ form button {
 
 
 input {
-  line-height: 2;
+  line-height: 1.5;
   width: 100%;
   font-size: 1.5rem;
   background: #2b75b6;
@@ -148,7 +140,6 @@ input::placeholder {
 }
 
 button {
-  /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -160,7 +151,7 @@ button {
 }
 
 button:disabled {
-  opacity: 0.75;
+  background-color: #93b27e;
   cursor: not-allowed;
 }
 
