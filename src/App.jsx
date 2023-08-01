@@ -155,7 +155,7 @@ function ChatRoom() {
 
   return (
     <>
-      <div>
+      {/* <div> */}
         {/* <button onClick={toggleSidebar}>
           {sidebarOpen ? "Hide Sidebar" : "Show Sidebar"}
         </button> */}
@@ -177,7 +177,7 @@ function ChatRoom() {
           </div>
         </main>
 
-      </div>
+      {/* </div> */}
 
     </>
   );
@@ -211,8 +211,6 @@ function ChatHistory() {
 
   return (<>
     <div>
-      <p></p>
-      <p></p>
       <h1 style={{ color: "#fff" }}>Chat History</h1>
       <button className='chat-history-button'>chat 1</button>
       <button className='chat-history-button'>chat 2</button>
