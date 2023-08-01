@@ -106,11 +106,18 @@ form {
   width: 100%;
   display: flex;
   font-size: 1.5rem;
+  width: calc(100% - 25%);
 }
 
 form button {
   width: 20%;
   background-color: #548235;
+}
+
+@media (max-width: 800px) {
+  form {
+    width: 100%;
+  }
 }
 
 
@@ -155,7 +162,7 @@ button:disabled {
 }
 
 .submit {
-  padding: 0 10px;
+  width: 150px;
 }
 
 
