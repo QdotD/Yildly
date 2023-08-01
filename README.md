@@ -1,4 +1,4 @@
-# Yildly-Frontend
+# Yildly
 
 ## Run this locally
 
