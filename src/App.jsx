@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img className="logo" src="src/assets/yildly.svg" alt="yildly company logo" />
+        <img className="logo" src="/yildly.svg" alt="yildly company logo" />
         <SignOut />
       </header>
 
@@ -194,7 +194,7 @@ function ChatMessage(props) {
     // This is a message from the chatbot to the current user.
     return (
       <div className={`message chatbot ${chatbotMessage}`}>
-        <img src={'src/assets/Y.svg'} alt='chatbot icon' />
+        <img src={'/Y.svg'} alt='chatbot icon' />
         <p>{text}</p>
       </div>
     );
