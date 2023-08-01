@@ -111,7 +111,7 @@ main {
 }
 
 form {
-  height: 10vh;
+  height: 15vh;
   width: 100%;
   display: flex;
   font-size: 1.5rem;
@@ -124,7 +124,7 @@ form button {
 
 
 input {
-  line-height: 1.5;
+  line-height: 2;
   width: 100%;
   font-size: 1.5rem;
   background: #2b75b6;
